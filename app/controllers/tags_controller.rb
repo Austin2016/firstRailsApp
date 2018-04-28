@@ -10,7 +10,6 @@ class TagsController < ApplicationController
 		@tag.destroy 
 
 		redirect_back(fallback_location: root_path)
-
-
 	end 
+	before_action :require_login, only: [:destroy]
 end
