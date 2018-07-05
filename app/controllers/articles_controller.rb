@@ -36,5 +36,8 @@ class ArticlesController < ApplicationController
 
 		redirect_to article_path(@article)
 	end 
+	def show_by_month
+
+	end
 	before_action :require_login, only: [:new, :create, :edit, :update]
 end
