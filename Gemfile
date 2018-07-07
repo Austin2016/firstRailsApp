@@ -61,4 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "paperclip"
 gem 'sorcery'
+gem 'rails_12factor'
 ruby '2.4.4'
